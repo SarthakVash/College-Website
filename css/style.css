@@ -99,7 +99,7 @@ nav .container-fluid .collapse .dropdown-menu li a {
 
 .student {
   background-attachment: fixed;
-  background-image: url(/img/bck1.jpg);
+  background-image: url(img/bck1.jpg);
   margin-top: 4rem; }
   .student .faculty {
     text-align: center; }
