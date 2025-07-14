@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+nav .container-fluid {
+  z-index: 2;
+  top: 0;
+  width: 100%; }
+
+nav .container-fluid .navbar-brand {
+  font-size: 2rem; }
+
+nav .container-fluid a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 5px 5px 10px red; }
+
+nav .container-fluid a:hover {
+  color: white; }
+
+nav .container-fluid a img {
+  height: fit-content;
+  width: 4rem;
+  font-size: 4rem; }
+
+nav .container-fluid .collapse {
+  justify-content: end; }
+
+nav .container-fluid .collapse ul li a {
+  color: #fff;
+  font-weight: bolder; }
+
+nav .container-fluid .collapse ul li a:hover {
+  color: red; }
+
+nav .container-fluid .collapse .dropdown-menu li a {
+  color: #fff; }
+
+.bckimg {
+  background-image: url(/img/clgbck.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0; }
+  .bckimg .welcome {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%; }
+    .bckimg .welcome h1 {
+      font-size: 3rem;
+      color: #fff;
+      text-shadow: 5px 5px black;
+      margin-top: 3rem; }
+    .bckimg .welcome p {
+      color: #fff;
+      text-shadow: 2px 2px black;
+      margin-top: 1rem; }
+    .bckimg .welcome button {
+      margin-top: 1rem; }
+
+.research .row {
+  text-align: center; }
+  .research .row h4 {
+    font-size: 2rem; }
+  .research .row i {
+    font-size: 1.5rem; }
+  .research .row .res,
+  .research .row .news {
+    background-color: red;
+    color: white;
+    padding: 1rem; }
+  .research .row .start,
+  .research .row .campus {
+    background-color: #f0e2e3;
+    padding: 1rem; }
+
+.about {
+  margin-top: 4rem; }
+  .about span {
+    color: red; }
+  .about .row iframe {
+    width: 100%;
+    height: 100%; }
+  .about .row h4 {
+    font-weight: bolder; }
+  .about .row .director {
+    background-color: antiquewhite; }
+    .about .row .director img {
+      width: 100%;
+      height: 100%; }
+
+.student {
+  background-attachment: fixed;
+  background-image: url(/img/bck1.jpg);
+  margin-top: 4rem; }
+  .student .faculty {
+    text-align: center; }
+    .student .faculty h4 {
+      font-size: 3rem; }
+    .student .faculty p {
+      font-size: 1.5rem; }
+    .student .faculty .staff {
+      padding: 1rem;
+      color: white; }
+
+.ug {
+  margin-top: 4rem; }
+  .ug h1 {
+    font-weight: bolder;
+    text-align: center; }
+  .ug h4 {
+    font-weight: bold;
+    text-align: center; }
+  .ug .row h5 {
+    font-weight: bolder; }
+  .ug .row .card {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 1px #757373; }
+  .ug .row .card1 {
+    padding: 1rem; }
+  .ug .row span {
+    font-weight: bold; }
+    .ug .row span i {
+      margin-right: 10px; }
+  .ug .row2 {
+    justify-content: center; }
+
+.pg {
+  margin-top: 4rem;
+  background-color: antiquewhite;
+  padding: 3rem 0 3rem 0; }
+  .pg h1 {
+    font-weight: bolder;
+    text-align: center; }
+  .pg h4 {
+    font-weight: bold;
+    text-align: center; }
+  .pg .row h5 {
+    font-weight: bolder; }
+  .pg .row .card {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 1px #757373; }
+  .pg .row .card1 {
+    padding: 1rem; }
+  .pg .row span {
+    font-weight: bold; }
+    .pg .row span i {
+      margin-right: 10px; }
+  .pg .row2 {
+    justify-content: center; }
+
+.india {
+  margin-top: 4rem; }
+  .india h1 {
+    text-align: center;
+    font-weight: bolder; }
+  .india .row .outline {
+    border: 5px dotted black;
+    padding: 1rem; }
+
+.placememt {
+  margin-top: 4rem; }
+  .placememt h1 {
+    text-align: center;
+    font-weight: bolder; }
+  .placememt .card {
+    border: none;
+    box-shadow: 3px 3px 7px 3px #4d4b4b; }
+
+.high {
+  margin-top: 4rem;
+  background-color: antiquewhite;
+  padding: 2rem 0 2rem 0; }
+  .high .row {
+    justify-content: center; }
+  .high h1 {
+    text-align: center;
+    font-weight: bolder; }
+  .high .card {
+    border-radius: 20px;
+    padding: 1rem; }
+    .high .card h2 {
+      color: blue;
+      font-weight: bolder; }
+
+.all-over {
+  margin-top: 4rem; }
+  .all-over h1 {
+    text-align: center;
+    font-weight: bolder; }
+  .all-over h4 {
+    text-align: center;
+    font-weight: bold; }
+  .all-over .card {
+    border: none; }
+    .all-over .card:hover {
+      box-shadow: 5px 5px 10px 2px #4d4b4b;
+      cursor: pointer; }
+
+.recuiter {
+  margin-top: 4rem; }
+  .recuiter img {
+    width: 100%; }
+  .recuiter h1 {
+    font-weight: bolder;
+    font-size: 4rem; }
+  .recuiter .Corporate {
+    display: flex; }
+
+.latest {
+  margin-top: 1rem; }
+  .latest i {
+    color: red;
+    margin-left: 10px; }
+  .latest h1 {
+    font-weight: bolder; }
+  .latest h5 {
+    font-weight: bold; }
+  .latest .new {
+    background-color: antiquewhite;
+    padding: 2rem; }
+  .latest .fest {
+    padding: 2rem; }
+
+.gallery {
+  margin-top: 4rem; }
+  .gallery h1 {
+    text-align: center;
+    font-weight: bolder; }
+  .gallery img {
+    width: 100%; }
+
+.end {
+  background-color: antiquewhite;
+  margin-top: 4rem; }
+  .end .container {
+    padding: 2rem; }
+    .end .container .camp h5 {
+      font-weight: bolder; }
+    .end .container .camp p {
+      font-weight: 400;
+      margin: 0; }
+    .end .container .contact i {
+      margin-right: 10px;
+      color: blue; }
+    .end .container .follow i {
+      color: blue;
+      font-size: 20px;
+      margin-left: 10px; }
+
+@media (max-width: 397px) {
+  .end .container .contact p {
+    font-size: 10px; }
+  .end .container .contact i {
+    margin-right: 5px;
+    font-size: 10px; }
+  .end .container .follow i {
+    font-size: 12px; } }
+@media (min-width: 397px) and (max-width: 460px) {
+  .end .container .contact p {
+    font-size: 13px; }
+  .end .container .contact i {
+    margin-right: 7px;
+    font-size: 15px; }
+  .end .container .follow i {
+    font-size: 15px; } }
+@media (max-width: 767px) {
+  .research .row .res {
+    border-bottom: 2px solid white; }
+  .research .row .start {
+    border-bottom: 2px solid white; }
+
+  .recuiter .Corporate {
+    flex-direction: column-reverse; } }
+@media (max-width: 1100px) {
+  .recuiter h1 {
+    font-weight: bolder;
+    font-size: 2.5rem; } }
+@media (min-width: 574px) and (max-width: 991px) {
+  .end .container .contact p {
+    font-size: 13px; }
+  .end .container .contact i {
+    margin-right: 7px;
+    font-size: 15px; }
+  .end .container .follow i {
+    font-size: 15px; } }
+
+/*# sourceMappingURL=style.css.map */
